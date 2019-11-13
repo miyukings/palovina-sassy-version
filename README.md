@@ -1,2 +1,4 @@
 # palovina-sassy-version
-My Art 258 Coded project
+art 258 exercise
+
+[view Demo](https://miyukings.github.io/palovina-sassy-version/)

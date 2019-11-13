@@ -1,0 +1,32 @@
+
+// VARIABLES
+$mybodybackground: lightgray;
+$body-fontfamily: classico-urw, sans-serif;
+$heading-fontfamily: "miller-banner, serif"; 
+
+// COLORS
+
+$color-text-body: #391006;
+$color-text-h1: white;
+$color-accent: #938564; 
+$color-links: rgb(121, 209, 49);
+$color-links-dark: rgb(130, 172, 62);
+$type-color-body:  #391006;
+$color-hero-bg: lightpink;
+
+
+//Breakpoints
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
+//IMPORT PARTIALS
+@import "partials/toc";
+@import "partials/typography"; 
+@import "partials/buttons";
+@import "partials/media"; 
+@import "partials/layout"; 
+@import "partials/grid"; 
+@import "partials/structure";  
+

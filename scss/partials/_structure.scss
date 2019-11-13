@@ -1,0 +1,122 @@
+/* site header and footer */
+
+.site-header {
+    background-color: white;
+    padding-top: 1em;
+    //padding-right: 15%;
+    color: #938564;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-family: $body-fontfamily;
+        font-size: 1.5em;
+    }
+
+    a {
+        color: rgba(82, 78, 24, 0.623);
+        text-decoration: none;
+        
+    }
+} 
+
+/* Site Footer */
+.site-footer {
+    background-color: white;
+    padding-top: 1em;
+    color: #938564;
+    display: flex;
+    justify-content: center;
+
+    h1 {
+        font-family: $body-fontfamily;
+        font-size: 1.5em;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+} 
+
+.site-nav {
+   ul {
+       margin: 0;
+       padding-top: 5%;
+       padding-bottom: 0;
+       list-style: none;
+       display: flex;
+}
+
+a {
+    display: block;
+    padding: 1em; 
+  }
+}
+ section {
+     padding: 6em 0;
+ }
+
+
+ body {
+    background-image: url("../BG-long-gray.png");
+    background-repeat: none;
+    background-size: cover; 
+} 
+
+/* Hero Sections */
+
+.hero {
+    background-color: $color-hero-bg;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+
+    p {
+        text-align: center;
+        max-width: none;
+    }
+
+}
+
+
+
+.home .hero {
+    padding: .8em 1em 20em 1em;
+    text-align: right;
+    background-image: url('../img/deadsea.jpg');
+
+    p {
+        text-align: right;
+        font-style: italic;
+    }
+}
+
+/* ABOUT SECTION */
+    h3  {
+    margin-top: 0;
+    padding-top: 0;
+    font-style: italic;
+}
+
+.row {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+/* PRODUCT SECTION */
+.two-third .column {
+    p{
+        padding-left: 100px;
+
+    }
+
+}
