@@ -3,8 +3,7 @@
 .site-header {
     background-color: white;
     padding-top: 1em;
-    //padding-right: 15%;
-    color: #938564;
+   
     .container {
         display: flex;
         justify-content: space-between;
@@ -20,8 +19,13 @@
         text-decoration: none;
         
     }
+   
 } 
-
+.site-nav {
+    li img {
+        padding-right: 20px;
+    }
+}
 /* Site Footer */
 .site-footer {
     background-color: white;
@@ -36,7 +40,7 @@
     }
 
     a {
-        color: #fff;
+        color: rgba(82, 78, 24, 0.623);
         text-decoration: none;
     }
 } 
@@ -61,8 +65,8 @@ a {
 
 
  body {
-    background-image: url("../BG-long-gray.png");
-    background-repeat: none;
+    background-image: url("../img/BG-long-gray.png");
+    background-repeat: no-repeat;
     background-size: cover; 
 } 
 
