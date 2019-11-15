@@ -193,8 +193,7 @@ body {
 /* site header and footer */
 .site-header {
   background-color: white;
-  padding-top: 1em;
-  color: #938564; }
+  padding-top: 1em; }
   .site-header .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,6 +207,10 @@ body {
   .site-header a {
     color: rgba(82, 78, 24, 0.623);
     text-decoration: none; }
+
+.icon-nav-items a {
+  margin-bottom: 10px;
+  padding-right: 20px; }
 
 /* Site Footer */
 .site-footer {
@@ -224,7 +227,7 @@ body {
     font-family: classico-urw, sans-serif;
     font-size: 1.5em; }
   .site-footer a {
-    color: #fff;
+    color: rgba(82, 78, 24, 0.623);
     text-decoration: none; }
 
 .site-nav ul {
@@ -244,8 +247,8 @@ section {
   padding: 6em 0; }
 
 body {
-  background-image: url("../BG-long-gray.png");
-  background-repeat: none;
+  background-image: url("../img/BG-long-white.png");
+  background-repeat: no-repeat;
   background-size: cover; }
 
 /* Hero Sections */

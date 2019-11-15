@@ -21,11 +21,11 @@
     }
    
 } 
-.site-nav {
-    li img {
+.icon-nav-items a {
+    margin-bottom: 10px;
         padding-right: 20px;
     }
-}
+
 /* Site Footer */
 .site-footer {
     background-color: white;
@@ -65,7 +65,7 @@ a {
 
 
  body {
-    background-image: url("../img/BG-long-gray.png");
+    background-image: url("../img/BG-long-white.png");
     background-repeat: no-repeat;
     background-size: cover; 
 } 
