@@ -12,6 +12,7 @@
     h1 {
         font-family: $body-fontfamily;
         font-size: 1.5em;
+       
     }
 
     a {
@@ -60,8 +61,8 @@ a {
   }
 }
  section {
-     padding: 6em 0;
- }
+     padding-top: 3em;
+ } 
 
 
  body {
@@ -104,10 +105,15 @@ a {
 }
 
 /* ABOUT SECTION */
-    h3  {
+    #about h3 {
     margin-top: 0;
+    margin-left: 50px;
     padding-top: 0;
     font-style: italic;
+}
+#about p {
+    margin-left: 50px;
+
 }
 
 .row {
@@ -118,9 +124,11 @@ a {
 
 /* PRODUCT SECTION */
 .two-third .column {
-    p{
+    p {
         padding-left: 100px;
 
     }
-
 }
+
+/* CONTACT SECTION */
+

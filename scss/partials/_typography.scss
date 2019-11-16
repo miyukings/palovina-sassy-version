@@ -45,47 +45,27 @@ h1, h2, h3 {
       border: 0;
       height: 1px;
       background: rgba(0,0,0,.15);
-      margin: 4em 0;
+      margin: 1em 0;
    }
 
     /* HELPER */
   .sectionhead {
     font-family: $heading-fontfamily;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
-    line-height: 1;
-    //text-transform: uppercase;
-    letter-spacing: .05em;
+    line-height: 1.5em;
+    margin-top: 2em;
+  
   }
   .sectionhead:after {
     display: block;
     content:"";
     width: 50px;
-    margin: 1em auto 6em auto;
-  }
+    margin: 1em auto 0 auto;
+  } 
 
-  .meta {
-    font-size: .8em;
-    //color: $color-midgray;
-    margin:0 0 2em 0;
-  }
+
   
-  /* Type Specimen */
-  .mainhead {
-      font-size: 6em;
-      color: $color-accent;
-      margin-bottom: 0; 
-  }
-
-  .subhead {
-      //color: rgb(151, 151, 16);
-      //font-family: $heading-fontfamily;
-      margin-bottom: 1em;
-  }
-
-  h4 {
-    margin-top: 0;
-  }
 
  
 

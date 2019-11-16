@@ -49,37 +49,21 @@ hr {
   border: 0;
   height: 1px;
   background: rgba(0, 0, 0, 0.15);
-  margin: 4em 0; }
+  margin: 1em 0; }
 
 /* HELPER */
 .sectionhead {
   font-family: "miller-banner, serif";
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
-  line-height: 1;
-  letter-spacing: .05em; }
+  line-height: 1.5em;
+  margin-top: 2em; }
 
 .sectionhead:after {
   display: block;
   content: "";
   width: 50px;
-  margin: 1em auto 6em auto; }
-
-.meta {
-  font-size: .8em;
-  margin: 0 0 2em 0; }
-
-/* Type Specimen */
-.mainhead {
-  font-size: 6em;
-  color: #938564;
-  margin-bottom: 0; }
-
-.subhead {
-  margin-bottom: 1em; }
-
-h4 {
-  margin-top: 0; }
+  margin: 1em auto 0 auto; }
 
 /* BUTTONS */
 button,
@@ -244,7 +228,7 @@ body {
   padding: 1em; }
 
 section {
-  padding: 6em 0; }
+  padding-top: 3em; }
 
 body {
   background-image: url("../img/BG-long-white.png");
@@ -273,10 +257,14 @@ body {
     font-style: italic; }
 
 /* ABOUT SECTION */
-h3 {
+#about h3 {
   margin-top: 0;
+  margin-left: 50px;
   padding-top: 0;
   font-style: italic; }
+
+#about p {
+  margin-left: 50px; }
 
 .row {
   padding-left: 10%;
@@ -285,3 +273,5 @@ h3 {
 /* PRODUCT SECTION */
 .two-third .column p {
   padding-left: 100px; }
+
+/* CONTACT SECTION */
