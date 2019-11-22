@@ -11,14 +11,12 @@
 
     h1 {
         font-family: $body-fontfamily;
-        font-size: 1.5em;
-       
+        font-size: 1.5em; 
     }
 
     a {
         color: rgba(82, 78, 24, 0.623);
-        text-decoration: none;
-        
+        text-decoration: none;  
     }
    
 } 
@@ -55,15 +53,14 @@
        display: flex;
 }
 
-a {
+/* a {
     display: block;
     padding: 1em; 
   }
-}
+} */
  section {
      padding-top: 3em;
  } 
-
 
  body {
     background-image: url("../img/BG-long-white.png");
@@ -71,7 +68,7 @@ a {
     background-size: cover; 
 } 
 
-/* Hero Sections */
+/* Hero Sections *
 
 .hero {
     background-color: $color-hero-bg;
@@ -88,9 +85,7 @@ a {
         text-align: center;
         max-width: none;
     }
-
 }
-
 
 
 .home .hero {
@@ -123,6 +118,23 @@ a {
 
 
 /* PRODUCT SECTION */
+.products {
+    h1 {
+        text-align: center;
+    }
+}
+.products-top {
+    background-image: url("../img/about-olive.jpg");
+    
+}
+
+.products-content {
+    h2 p {
+        text-align: center;
+    }
+}
+
+.p
 .two-third .column {
     p {
         padding-left: 100px;
@@ -131,4 +143,25 @@ a {
 }
 
 /* CONTACT SECTION */
+#contact .row .one {
+    .one-half .column {
+        h2 {
+            padding-left: 100px;  
+        }
+    }  
+}
 
+
+#contact-form {
+.container h3 hr {
+        margin: 80px 0 50px auto;
+}   
+}
+
+.social-icons::after {
+clear: both;
+content:"";
+display: block;
+    }
+}
+   
