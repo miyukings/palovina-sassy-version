@@ -20,11 +20,18 @@
     }
    
 } 
-.icon-nav-items a {
+/* .icon-nav-items a {
     margin-bottom: 10px;
         padding-right: 20px;
-    }
+    } */
 
+
+    .icon-nav-item img {
+        min-width: 20px;
+    }
+    .site-nav a {
+        white-space: nowrap;
+    }
 /* Site Footer */
 .site-footer {
     background-color: white;
@@ -37,7 +44,6 @@
         font-family: $body-fontfamily;
         font-size: 1.5em;
     }
-
     a {
         color: rgba(82, 78, 24, 0.623);
         text-decoration: none;
@@ -53,11 +59,11 @@
        display: flex;
 }
 
-/* a {
+ a {
     display: block;
     padding: 1em; 
   }
-} */
+
  section {
      padding-top: 3em;
  } 
@@ -67,8 +73,9 @@
     background-repeat: no-repeat;
     background-size: cover; 
 } 
+}
 
-/* Hero Sections *
+/* Hero Sections */
 
 .hero {
     background-color: $color-hero-bg;
@@ -80,13 +87,11 @@
         font-size: 4em;
         margin-bottom: 0;
     }
-
     p {
         text-align: center;
         max-width: none;
     }
 }
-
 
 .home .hero {
     padding: .8em 1em 20em 1em;
@@ -155,13 +160,21 @@
 #contact-form {
 .container h3 hr {
         margin: 80px 0 50px auto;
+        max-width: 30px;
 }   
 }
 
-.social-icons::after {
-clear: both;
-content:"";
-display: block;
-    }
+.social-links {
+    display: flex;
+    list-style: none;
+li {
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: rgba(68, 68, 68, 0);
+
+}
 }
    
