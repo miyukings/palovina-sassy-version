@@ -2,7 +2,7 @@
 
 .site-header {
     background-color: white;
-    padding-top: 1em;
+    /*padding-top: 1em; */
    
     .container {
         display: flex;
@@ -18,13 +18,7 @@
         color: rgba(82, 78, 24, 0.623);
         text-decoration: none;  
     }
-   
-} 
-/* .icon-nav-items a {
-    margin-bottom: 10px;
-        padding-right: 20px;
-    } */
-
+}
 
     .icon-nav-item img {
         min-width: 20px;
@@ -32,6 +26,8 @@
     .site-nav a {
         white-space: nowrap;
     }
+
+
 /* Site Footer */
 .site-footer {
     background-color: white;
@@ -58,11 +54,11 @@
        list-style: none;
        display: flex;
 }
-
  a {
     display: block;
     padding: 1em; 
   }
+}
 
  section {
      padding-top: 3em;
@@ -73,7 +69,7 @@
     background-repeat: no-repeat;
     background-size: cover; 
 } 
-}
+
 
 /* Hero Sections */
 
@@ -123,58 +119,95 @@
 
 
 /* PRODUCT SECTION */
-.products {
-    h1 {
-        text-align: center;
-    }
-}
-.products-top {
+.products-hero {
+    .container {
     background-image: url("../img/about-olive.jpg");
-    
-}
-
-.products-content {
-    h2 p {
-        text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 0;
+    width: 100%;
+   
+   }
+    h1 {
+        text-align: center; 
+        color: white; 
+        padding: 3em 1em;
+        font-size: 4em;
+        margin: 0 auto;
     }
-}
+    }
 
-.p
+
+#products-text .container {
+      margin: 0 auto;
+      width: 700px;
+      text-align: center;
+      p {
+          text-align: left;
+      }
+    }
+#line-up {
+    .row {
+
 .two-third .column {
-    p {
-        padding-left: 100px;
-
+    .container {
+        margin: 0 auto;
     }
 }
+    } }
 
 /* CONTACT SECTION */
-#contact .row .one {
-    .one-half .column {
-        h2 {
-            padding-left: 100px;  
-        }
-    }  
-}
-
-
 #contact-form {
-.container h3 hr {
-        margin: 80px 0 50px auto;
-        max-width: 30px;
-}   
+.container {
+        margin: 80px auto;
+        max-width: 700px; 
+        padding: 50px 0;           
+}  
+.plus-icon {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+} 
+     p {
+         text-align: left;
+         margin-top: 0;
+         margin-bottom: 10px;
+              
+}
+.plus-icon img {
+    min-width: 20px;
+}
+     hr {
+        text-align: center;
+        margin-top: 0 0 20px;
+        color: $color-text-body;
+     }
 }
 
+/* SOCIAL MEDIA ICONS */
 .social-links {
     display: flex;
+    transition: .3s;
+    justify-content: center;
+    align-items: center;
     list-style: none;
-li {
-    width: 30px;
-    height: 30px;
-    background-size: 100%;
+    margin: 2px;
+    ul {
+        text-align: center; 
+    }
+ 
+li a {
+    width: 35px;
+    height: 35px;
+    background-image: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
-    color: rgba(68, 68, 68, 0);
+    color: rgba(104, 103, 103, 0);
+}
 
+  .social-links:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
 }
-}
-   

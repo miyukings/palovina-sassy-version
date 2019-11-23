@@ -177,7 +177,7 @@ body {
 /* site header and footer */
 .site-header {
   background-color: white;
-  padding-top: 1em; }
+  /*padding-top: 1em; */ }
   .site-header .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -192,10 +192,6 @@ body {
     color: rgba(82, 78, 24, 0.623);
     text-decoration: none; }
 
-/* .icon-nav-items a {
-    margin-bottom: 10px;
-        padding-right: 20px;
-    } */
 .icon-nav-item img {
   min-width: 20px; }
 
@@ -233,10 +229,10 @@ body {
   display: block;
   padding: 1em; }
 
-.site-nav section {
+section {
   padding-top: 3em; }
 
-.site-nav body {
+body {
   background-image: url("../img/BG-long-white.png");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -277,36 +273,87 @@ body {
   padding-right: 10%; }
 
 /* PRODUCT SECTION */
-.products h1 {
+.products-hero .container {
+  background-image: url("../img/about-olive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 0;
+  width: 100%; }
+
+.products-hero h1 {
+  text-align: center;
+  color: white;
+  padding: 3em 1em;
+  font-size: 4em;
+  margin: 0 auto; }
+
+#products-text .container {
+  margin: 0 auto;
+  width: 700px;
   text-align: center; }
+  #products-text .container p {
+    text-align: left; }
 
-.products-top {
-  background-image: url("../img/about-olive.jpg"); }
-
-.products-content h2 p {
-  text-align: center; }
-
-.p
-.two-third .column p {
-  padding-left: 100px; }
+#line-up .row .two-third .column .container {
+  margin: 0 auto; }
 
 /* CONTACT SECTION */
-#contact .row .one .one-half .column h2 {
-  padding-left: 100px; }
+#contact-form .container {
+  margin: 80px auto;
+  max-width: 700px;
+  padding: 50px 0; }
 
-#contact-form .container h3 hr {
-  margin: 80px 0 50px auto;
-  max-width: 30px; }
+#contact-form .plus-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+  -ms-flex-pack: right;
+  justify-content: right;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  align-items: right; }
 
+#contact-form p {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+#contact-form .plus-icon img {
+  min-width: 20px; }
+
+#contact-form hr {
+  text-align: center;
+  margin-top: 0 0 20px;
+  color: #391006; }
+
+/* SOCIAL MEDIA ICONS */
 .social-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none; }
-  .social-links li {
-    width: 30px;
-    height: 30px;
-    background-size: 100%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  margin: 2px; }
+  .social-links ul {
+    text-align: center; }
+  .social-links li a {
+    width: 35px;
+    height: 35px;
+    background-image: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
-    color: rgba(68, 68, 68, 0); }
+    color: rgba(104, 103, 103, 0); }
+  .social-links .social-links:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px); }
