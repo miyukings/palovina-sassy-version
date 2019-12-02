@@ -364,3 +364,27 @@ body {
     -webkit-transform: translateY(-5px);
     -ms-transform: translateY(-5px);
     transform: translateY(-5px); }
+
+/* CONTACT FORM */
+#contact-form .container input {
+  font-size: 3em;
+  border-bottom: 1px solid gray;
+  border-right: none;
+  border-left: none;
+  border-top: none; }
+
+#contact-form .container textarea {
+  width: 545px;
+  height: 10em;
+  line-height: 2em;
+  margin: 50px 0;
+  color: #391006;
+  font-family: classico-urw, sans-serif;
+  font-size: 1.2em; }
+
+#contact-form .container p {
+  margin-bottom: 0;
+  font-size: 1.2em; }
+
+#contact-form .container .send-buttom a {
+  margin: 0 auto; }

@@ -221,3 +221,33 @@ li a {
     transform: translateY(-5px);
   }
 }
+
+/* CONTACT FORM */
+#contact-form {
+    .container {
+
+    input {
+       font-size: 3em;
+       border-bottom: 1px solid gray;
+       border-right: none;
+       border-left: none;
+       border-top: none;
+       
+    }
+    textarea {
+        width: 545px;
+        height: 10em;
+        line-height: 2em;
+        margin: 50px 0;
+        color: $color-text-body;
+        font-family: $body-fontfamily;
+        font-size: 1.2em;
+    }
+    p {
+        margin-bottom: 0;
+        font-size: 1.2em;
+    }  
+    .send-buttom a {
+     margin: 0 auto;
+    }
+}}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Palovina</title>
+    <meta name="description" content="A minimalistic HTML + CSS + JS base front-end framework for simple web site projects." />
+
+    <!-- VIEWPORT FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- MAIN CSS FILE -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/bnm7oer.css">
+
+
+
+</head>
+
+
+<body class="home">
+    <div class="container">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="site-id">
+                    <h1><a href="index.html"><img src="img/palovina-logo800x200.png" alt="Palovina Logo" width="250px"></a></h1>
+                </div>
+
+                <nav class="site-nav">
+                    <ul>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="icon-nav-item"><a href="#"><img src="img/Bcart500x500.png " width="37px" alt="Cart Icon"></a></li>
+                        <li class="icon-nav-item"><a href="#"><img src="img/Becontact500x500.png " width="35px" alt="Contact Icon"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <section id="contact">
+            <h2 class="sectionhead">Contact Us</h2>
+
+            <section id="contact-form">
+                <div class="container">
+                    <p>Your Name</p>
+                    <input type="name" name="your-name"><br>
+                    <p>Email Address</p>
+                    <input type="email" name="your-email"><br>
+                    <textarea name="text" rows="5" clos="80">Message</textarea>
+
+                    <div class="send-button"><a href="index.html"><img src="img/send300x300.png" width="200px"></a></div>
+                </div>
+
+
+            </section>
+            <ul class="social-links">
+                <li class="social-links"><a href="#"><img src="img/Line500x500.png" alt="Line Icon"></a></li>
+                <li class="social-links"><a href="#"><img src="img/FaceB.png" alt="Facebook Icon"></a></li>
+                <li class="social-links"><a href="#"><img src="img/insta.png" alt="Insta Icon"></a></li>
+                <li class="social-links"><a href="#"><img src="img/Twitter500x500.png" alt="Twitter Icon"></a></li>
+                <li class="social-links"><a href="#"><img src="img/Pin500x500.png" alt="Pin Icon"></a></li>
+            </ul>
+
+            <footer class="site-footer">
+                <div class="container">
+                    <nav class="site-nav">
+                        <ul>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+
+                    </nav>
+                </div>
+            </footer>
+
+
+    </div>
+    </div>
+    </footer>
+    </div>
+
+    <!-- SMOOTH SCROLL JS-->
+
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+
+    </script>
+
+</body>
+
+</html>
