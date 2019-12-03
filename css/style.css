@@ -414,3 +414,7 @@ body {
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto; }
+
+/* CART PAGE */
+#shopping-cart {
+  margin: 50px auto 100px; }
