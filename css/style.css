@@ -304,36 +304,26 @@ body {
   margin: 80px auto;
   max-width: 500px;
   padding: 50px 0; }
-
-#contact-form .plus-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-  -ms-flex-pack: right;
-  justify-content: right;
-  -webkit-box-align: right;
-  -ms-flex-align: right;
-  align-items: right; }
-
-#contact-form h3 {
-  text-align: left;
-  margin: 0 auto 0 0; }
-
-#contact-form .plus-icon {
-  min-width: 20px;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-  #contact-form .plus-icon p a {
-    color: #391006;
-    text-decoration: none;
-    font-size: 1.2em; }
-
-#contact-form hr {
-  text-align: center;
-  padding: 10px auto;
-  color: #391006; }
+  #contact-form .container p {
+    color: #391006; }
+  #contact-form .container hr {
+    text-align: center;
+    padding: 10px auto;
+    color: #391006; }
+  #contact-form .container .contact-one .contact-two h3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left;
+    margin: 0 auto 0 0; }
+  #contact-form .container .contact-one .contact-two li {
+    width: 35px;
+    height: 35px;
+    background-image: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: rgba(104, 103, 103, 0);
+    list-style: none; }
 
 /* SOCIAL MEDIA ICONS */
 .social-links {
