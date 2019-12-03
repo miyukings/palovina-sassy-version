@@ -175,7 +175,8 @@
          }         
  
 .contact-one .contact-two {
-   
+    display: flex;
+    justify-content: center;
      h3 {
         display: flex;
          text-align: left;
@@ -190,6 +191,9 @@
         color: rgba(104, 103, 103, 0);
         list-style: none;
  } }} }    
+ .search input {
+     font-size: 2.8em;
+ }
  
 
 /* SOCIAL MEDIA ICONS */
@@ -220,16 +224,23 @@ li a {
 }
 
 /* CONTACT FORM */
-#contact-form {
-    .container {
-
+ 
+#text-form .text-flame .container {
+    width: 800px;
+    height: 800px;  
+    border: 2px solid $color-text-body;
+    border-radius: 10%;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+   input textarea hr {
+     padding-left: 50px; 
+   }
     input {
        font-size: 3em;
        border-bottom: 1px solid gray;
        border-right: none;
        border-left: none;
        border-top: none;
-       
     }
     textarea {
         width: 545px;
@@ -241,10 +252,34 @@ li a {
         font-size: 1.2em;
     }
     p {
+        margin-top: 50px;
         margin-bottom: 0;
         font-size: 1.2em;
     }  
     .send-buttom a {
-     margin: 0 auto;
+    justify-content: center;
     }
-}}
+}
+
+/* ACCOUNT PAGE */
+#sign-in {
+    fieldset {
+        width: 800px;
+        margin: 100px auto 200px;
+        legend {
+            font-family: $body-fontfamily;
+            font-size: 2em;
+           text-transform: uppercase;
+           padding-bottom: 20px;
+        }
+        
+        input {
+            padding-top:30px; 
+            font-size:2em;
+            display: flex;
+            margin: 0 auto;
+        
+           
+        }
+    }}
+

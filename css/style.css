@@ -310,20 +310,30 @@ body {
     text-align: center;
     padding: 10px auto;
     color: #391006; }
-  #contact-form .container .contact-one .contact-two h3 {
+  #contact-form .container .contact-one .contact-two {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    text-align: left;
-    margin: 0 auto 0 0; }
-  #contact-form .container .contact-one .contact-two li {
-    width: 35px;
-    height: 35px;
-    background-image: 100%;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    color: rgba(104, 103, 103, 0);
-    list-style: none; }
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #contact-form .container .contact-one .contact-two h3 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: left;
+      margin: 0 auto 0 0; }
+    #contact-form .container .contact-one .contact-two li {
+      width: 35px;
+      height: 35px;
+      background-image: 100%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      color: rgba(104, 103, 103, 0);
+      list-style: none; }
+
+.search input {
+  font-size: 2.8em; }
 
 /* SOCIAL MEDIA ICONS */
 .social-links {
@@ -356,25 +366,51 @@ body {
     transform: translateY(-5px); }
 
 /* CONTACT FORM */
-#contact-form .container input {
-  font-size: 3em;
-  border-bottom: 1px solid gray;
-  border-right: none;
-  border-left: none;
-  border-top: none; }
+#text-form .text-flame .container {
+  width: 800px;
+  height: 800px;
+  border: 2px solid #391006;
+  border-radius: 10%;
+  padding-bottom: 50px;
+  margin-bottom: 100px; }
+  #text-form .text-flame .container input textarea hr {
+    padding-left: 50px; }
+  #text-form .text-flame .container input {
+    font-size: 3em;
+    border-bottom: 1px solid gray;
+    border-right: none;
+    border-left: none;
+    border-top: none; }
+  #text-form .text-flame .container textarea {
+    width: 545px;
+    height: 10em;
+    line-height: 2em;
+    margin: 50px 0;
+    color: #391006;
+    font-family: classico-urw, sans-serif;
+    font-size: 1.2em; }
+  #text-form .text-flame .container p {
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-size: 1.2em; }
+  #text-form .text-flame .container .send-buttom a {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
 
-#contact-form .container textarea {
-  width: 545px;
-  height: 10em;
-  line-height: 2em;
-  margin: 50px 0;
-  color: #391006;
-  font-family: classico-urw, sans-serif;
-  font-size: 1.2em; }
-
-#contact-form .container p {
-  margin-bottom: 0;
-  font-size: 1.2em; }
-
-#contact-form .container .send-buttom a {
-  margin: 0 auto; }
+/* ACCOUNT PAGE */
+#sign-in fieldset {
+  width: 800px;
+  margin: 100px auto 200px; }
+  #sign-in fieldset legend {
+    font-family: classico-urw, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 20px; }
+  #sign-in fieldset input {
+    padding-top: 30px;
+    font-size: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto; }
