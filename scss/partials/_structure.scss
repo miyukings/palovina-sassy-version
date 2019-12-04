@@ -8,25 +8,21 @@
         display: flex;
         justify-content: space-between;
     }
-
     h1 {
         font-family: $body-fontfamily;
         font-size: 1.5em; 
     }
-
     a {
         color: rgba(82, 78, 24, 0.623);
         text-decoration: none;  
     }
 }
-
     .icon-nav-item img {
         min-width: 20px;
     }
     .site-nav a {
         white-space: nowrap;
     }
-
 
 /* Site Footer */
 .site-footer {
@@ -65,7 +61,7 @@
  } 
 
  body {
-    background-image: url("../img/BG-long-white.png");
+    background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0)), url("../img/BG-long-white.png");
     background-repeat: no-repeat;
     background-size: cover; 
 
@@ -73,7 +69,6 @@
 
 
 /* Hero Sections */
-
 .hero {
     background-color: $color-hero-bg;
     background-size: cover;
@@ -102,22 +97,21 @@
 }
 
 /* ABOUT SECTION */
-    #about h3 {
+    #about .one-half.column {
+        h3 { 
     margin-top: 0;
     margin-left: 50px;
-    padding-top: 0;
+    padding-top: 0; 
     font-style: italic;
 }
-#about p {
+ p {
     margin-left: 50px;
-
 }
-
 .row {
     padding-left: 10%;
     padding-right: 10%;
 }
-
+    }
 
 /* PRODUCT SECTION */
 .products-hero {
@@ -128,7 +122,6 @@
     text-align: center;
     padding-top: 0;
     width: 100%;
-   
    }
     h1 {
         text-align: center; 
@@ -139,10 +132,9 @@
     }
     }
 
-
 #products-text .container {
       margin: 0 auto;
-      width: 700px;
+      max-width: 700px;
       text-align: center;
       p {
           text-align: left;
@@ -151,14 +143,52 @@
 #line-up {
     .row {
 
-.two-third .column {
-    .container {
-        margin: 0 auto;
-    }
+.two-third.column {
+       margin: 0 auto;
+       text-align: start;
 }
     } }
 
 /* CONTACT SECTION */
+#contact .one-half.column {
+    h2 {
+        margin-top: 0;
+        margin-left: 50px;
+        padding-top: 0; 
+    }}
+ /* Test*/
+#form2 {
+    position:relative;
+    max-width: 500px;
+    margin-bottom:20px;
+}
+#sbox2 {
+    height: 50px;
+    padding: 0 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 2px;
+    outline: 0;
+    background: #eee;
+}
+#sbtn2 {
+    height: 50px;
+    position: absolute;
+    left: 500px;
+    top: 0;
+    color: #666;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+#sbtn5:hover {
+    color: #7fbfff;
+}
+
+
+
+/* CONTACT FORM */
  #contact-form {
 .container {
         margin: 80px auto;
@@ -167,12 +197,19 @@
         p {
             color: $color-text-body; 
         }
-        
          hr {
             text-align: center;
             padding: 10px auto;
             color: $color-text-body;
-         }         
+         }  
+         .search input {
+            font-size: 1.5em;
+            line-height: 1.5em;
+            font-family: $body-fontfamily;
+            color: $color-text-body;
+            width: 100%;
+            height: 10%; 
+         }       
  
 .contact-one .contact-two {
     display: flex;
@@ -191,9 +228,7 @@
         color: rgba(104, 103, 103, 0);
         list-style: none;
  } }} }    
- .search input {
-     font-size: 2.8em;
- }
+
  
 
 /* SOCIAL MEDIA ICONS */
@@ -225,41 +260,63 @@ li a {
 
 /* CONTACT FORM */
  
-#text-form .text-flame .container {
-    width: 800px;
-    height: 800px;  
-    border: 2px solid $color-text-body;
-    border-radius: 10%;
-    padding-bottom: 50px;
-    margin-bottom: 100px;
-   input textarea hr {
-     padding-left: 50px; 
+#text-form  {
+    
+    .container {
+        max-width: 600px; 
+        border: 2px solid $color-text-body;
+        border-radius: 30px;
+        padding: 2em;
+        margin-bottom: 100px;
+    }
+
+   hr {
+    margin: 0 auto;
+    display: flex;
+
+   }
+
+   input, textarea {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: $body-fontfamily;
+    color: $color-text-body;
+   }
+
+   ::placeholder {
+       color: $color-text-body;
+       opacity: .7;
+   }
+
+   label {
+       display: block;
    }
     input {
-       font-size: 3em;
+       width: 100%;
        border-bottom: 1px solid gray;
        border-right: none;
        border-left: none;
        border-top: none;
+       padding: 1em 0;
+       margin-bottom: 2em;
     }
     textarea {
-        width: 545px;
+        width: 100%;
         height: 10em;
-        line-height: 2em;
-        margin: 50px 0;
-        color: $color-text-body;
-        font-family: $body-fontfamily;
-        font-size: 1.2em;
+        margin: 20px 0 50px;
     }
     p {
-        margin-top: 50px;
+        /* margin-top: 50px; */
         margin-bottom: 0;
         font-size: 1.2em;
     }  
-    .send-buttom a {
-    justify-content: center;
+    .send-button img {
+        margin: 0 auto;
+        display: flex;
+        width: 100px;
     }
 }
+
 
 /* ACCOUNT PAGE */
 #sign-in {
