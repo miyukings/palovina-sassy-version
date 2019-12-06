@@ -3,15 +3,14 @@
 button,
 .button {
     font-size: inherit;
-    font-family: $body-fontfamily;
-    background-color: $color-links;
+    font-family: $heading-fontfamily;
+    background-color: $color-accent;
     line-height: 1;
     color: #fff;
     padding: 1em 2em;
     display: inline-block;
     margin: .5em;
-    border: 1px solid $color-links;
-    border-radius: 2em;
+    border-radius: 2%;
     cursor: pointer; 
 
 

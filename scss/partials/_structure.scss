@@ -100,18 +100,13 @@
     #about .one-half.column {
         h3 { 
     margin-top: 0;
-    margin-left: 50px;
+   
     padding-top: 0; 
     font-style: italic;
 }
- p {
-    margin-left: 50px;
+
 }
-.row {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-    }
+        
 
 /* PRODUCT SECTION */
 .products-hero {
@@ -131,7 +126,15 @@
         margin: 0 auto;
     }
     }
+    #products {
+        .two-third.column {
+            h3 {
+                font-style: italic;
+            }
+        }
+    }
 
+    /* PRODUCTS PAGE */
 #products-text .container {
       margin: 0 auto;
       max-width: 700px;
@@ -146,16 +149,19 @@
 .two-third.column {
        margin: 0 auto;
        text-align: start;
+       
 }
     } }
+ 
 
 /* CONTACT SECTION */
 #contact .one-half.column {
-    h2 {
-        margin-top: 0;
-        margin-left: 50px;
-        padding-top: 0; 
-    }}
+    address {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        font-style: normal;
+    }
+}
  /* Test*/
 #form2 {
     position:relative;
@@ -261,7 +267,6 @@ li a {
 /* CONTACT FORM */
  
 #text-form  {
-    
     .container {
         max-width: 600px; 
         border: 2px solid $color-text-body;
@@ -319,24 +324,57 @@ li a {
 
 
 /* ACCOUNT PAGE */
-#sign-in {
+
+#account-page .row {
+padding: 0 10% 10%;
+padding-right: 10%;
+justify-content: space-between;
+align-items: center;
+
+.one-half.column {
+   padding-top: 0 20px;
+   button.sign-in.regster a {
+    text-decoration: none;
+
+  }
+   h3 {
+      text-align: center;
+       font-style: italic;
+   }
     fieldset {
-        width: 800px;
-        margin: 100px auto 200px;
-        legend {
-            font-family: $body-fontfamily;
-            font-size: 2em;
-           text-transform: uppercase;
-           padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 300px;
+      border-radius: 2%;
+        p {
+           display: flex;
+           text-align: center;
+           margin: 0 auto;
         }
-        
+       
+        legend {
+        font-family: $heading-fontfamily;
+        font-size: 1.5em;  
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        }
         input {
-            padding-top:30px; 
+            
             font-size:2em;
             display: flex;
-            margin: 0 auto;
+            padding: 1% auto 3%; 
         }
-    }}
+        ::placeholder {
+            color: $body-fontfamily;
+            padding-top: 0;
+        }
+        .clickbox p input {
+            display: inline;
+            max-width: 250px;
+        }
+     
+    }}}
 
     /* CART PAGE */
     #shopping-cart {

@@ -39,10 +39,10 @@ p {
 
 /* LINKS */
 a {
-  color: #79d131; }
+  color: white; }
 
 a:hover {
-  color: #82ac3e; }
+  color: #1a0d05; }
 
 /* HORIZONTAL RULE */
 hr {
@@ -69,30 +69,29 @@ hr {
 button,
 .button {
   font-size: inherit;
-  font-family: classico-urw, sans-serif;
-  background-color: #79d131;
+  font-family: "miller-banner, serif";
+  background-color: #938564;
   line-height: 1;
   color: #fff;
   padding: 1em 2em;
   display: inline-block;
   margin: .5em;
-  border: 1px solid #79d131;
-  border-radius: 2em;
+  border-radius: 2%;
   cursor: pointer; }
   button:hover,
   .button:hover {
-    background-color: #82ac3e;
+    background-color: #1a0d05;
     color: #fff;
-    border-color: #82ac3e; }
+    border-color: #1a0d05; }
   button.alt,
   .button.alt {
-    color: #82ac3e;
+    color: #1a0d05;
     background-color: #fff; }
     button.alt:hover,
     .button.alt:hover {
-      background-color: #82ac3e;
+      background-color: #1a0d05;
       color: #fff;
-      border-color: #82ac3e; }
+      border-color: #1a0d05; }
 
 /* Responsive Images */
 img {
@@ -265,16 +264,8 @@ body {
 /* ABOUT SECTION */
 #about .one-half.column h3 {
   margin-top: 0;
-  margin-left: 50px;
   padding-top: 0;
   font-style: italic; }
-
-#about .one-half.column p {
-  margin-left: 50px; }
-
-#about .one-half.column .row {
-  padding-left: 10%;
-  padding-right: 10%; }
 
 /* PRODUCT SECTION */
 .products-hero .container {
@@ -292,6 +283,10 @@ body {
   font-size: 4em;
   margin: 0 auto; }
 
+#products .two-third.column h3 {
+  font-style: italic; }
+
+/* PRODUCTS PAGE */
 #products-text .container {
   margin: 0 auto;
   max-width: 700px;
@@ -304,10 +299,10 @@ body {
   text-align: start; }
 
 /* CONTACT SECTION */
-#contact .one-half.column h2 {
-  margin-top: 0;
-  margin-left: 50px;
-  padding-top: 0; }
+#contact .one-half.column address {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-style: normal; }
 
 /* Test*/
 #form2 {
@@ -474,21 +469,66 @@ body {
   width: 100px; }
 
 /* ACCOUNT PAGE */
-#sign-in fieldset {
-  width: 800px;
-  margin: 100px auto 200px; }
-  #sign-in fieldset legend {
-    font-family: classico-urw, sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    padding-bottom: 20px; }
-  #sign-in fieldset input {
-    padding-top: 30px;
-    font-size: 2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto; }
+#account-page .row {
+  padding: 0 10% 10%;
+  padding-right: 10%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #account-page .row .one-half.column {
+    padding-top: 0 20px; }
+    #account-page .row .one-half.column button.sign-in.regster a {
+      text-decoration: none; }
+    #account-page .row .one-half.column h3 {
+      text-align: center;
+      font-style: italic; }
+    #account-page .row .one-half.column fieldset {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      max-width: 300px;
+      border-radius: 2%; }
+      #account-page .row .one-half.column fieldset p {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        text-align: center;
+        margin: 0 auto; }
+      #account-page .row .one-half.column fieldset legend {
+        font-family: "miller-banner, serif";
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding-bottom: 20px; }
+      #account-page .row .one-half.column fieldset input {
+        font-size: 2em;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 1% auto 3%; }
+      #account-page .row .one-half.column fieldset ::-webkit-input-placeholder {
+        color: classico-urw, sans-serif;
+        padding-top: 0; }
+      #account-page .row .one-half.column fieldset :-ms-input-placeholder {
+        color: classico-urw, sans-serif;
+        padding-top: 0; }
+      #account-page .row .one-half.column fieldset ::-ms-input-placeholder {
+        color: classico-urw, sans-serif;
+        padding-top: 0; }
+      #account-page .row .one-half.column fieldset ::placeholder {
+        color: classico-urw, sans-serif;
+        padding-top: 0; }
+      #account-page .row .one-half.column fieldset .clickbox p input {
+        display: inline;
+        max-width: 250px; }
 
 /* CART PAGE */
 #shopping-cart {
