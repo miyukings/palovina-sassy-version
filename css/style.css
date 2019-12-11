@@ -479,7 +479,7 @@ body {
   -ms-flex-align: center;
   align-items: center; }
   #account-page .row .one-half.column {
-    padding-top: 0 20px; }
+    padding: 0 20px; }
     #account-page .row .one-half.column button.sign-in.regster a {
       text-decoration: none; }
     #account-page .row .one-half.column h3 {
@@ -527,9 +527,21 @@ body {
         color: classico-urw, sans-serif;
         padding-top: 0; }
       #account-page .row .one-half.column fieldset .clickbox p input {
-        display: inline;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         max-width: 250px; }
 
 /* CART PAGE */
 #shopping-cart {
   margin: 50px auto 100px; }
+
+.contact-one img,
+.contact-two img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: right; }
+
+.contact-two h3 {
+  color: #391006; }
