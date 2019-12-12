@@ -304,35 +304,6 @@ body {
   line-height: 1.5em;
   font-style: normal; }
 
-/* Test*/
-#form2 {
-  position: relative;
-  max-width: 500px;
-  margin-bottom: 20px; }
-
-#sbox2 {
-  height: 50px;
-  padding: 0 10px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 2px;
-  outline: 0;
-  background: #eee; }
-
-#sbtn2 {
-  height: 50px;
-  position: absolute;
-  left: 500px;
-  top: 0;
-  color: #666;
-  background: none;
-  border: none;
-  font-size: 20px; }
-
-#sbtn5:hover {
-  color: #7fbfff; }
-
 /* CONTACT FORM */
 #contact-form .container {
   margin: 80px auto;
@@ -351,6 +322,14 @@ body {
     color: #391006;
     width: 100%;
     height: 10%; }
+    #contact-form .container .search input input {
+      width: 100%;
+      border-bottom: 1px solid gray;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      padding: 1em 0;
+      margin-bottom: 2em; }
   #contact-form .container .contact-one .contact-two {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -372,6 +351,17 @@ body {
       overflow: hidden;
       color: rgba(104, 103, 103, 0);
       list-style: none; }
+
+#account-page .container input {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006; }
+  #account-page .container input placeholder {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
 
 /* SOCIAL MEDIA ICONS */
 .social-links {
