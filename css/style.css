@@ -298,6 +298,11 @@ body {
   margin: 0 auto;
   text-align: start; }
 
+.row.three .one-third.column h4 {
+  color: #938564; }
+  .row.three .one-third.column h4 a {
+    text-decoration: none; }
+
 /* CONTACT SECTION */
 #contact .one-half.column address {
   font-size: 1.2em;
@@ -352,50 +357,6 @@ body {
       color: rgba(104, 103, 103, 0);
       list-style: none; }
 
-#account-page ::-webkit-input-placeholder {
-  font-size: .5em;
-  line-height: 1.5em;
-  font-family: classico-urw, sans-serif;
-  color: #391006; }
-
-#account-page :-ms-input-placeholder {
-  font-size: .5em;
-  line-height: 1.5em;
-  font-family: classico-urw, sans-serif;
-  color: #391006; }
-
-#account-page ::-ms-input-placeholder {
-  font-size: .5em;
-  line-height: 1.5em;
-  font-family: classico-urw, sans-serif;
-  color: #391006; }
-
-#account-page ::placeholder {
-  font-size: .5em;
-  line-height: 1.5em;
-  font-family: classico-urw, sans-serif;
-  color: #391006; }
-  #account-page ::-webkit-input-placeholder input {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: classico-urw, sans-serif;
-    color: #391006; }
-  #account-page :-ms-input-placeholder input {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: classico-urw, sans-serif;
-    color: #391006; }
-  #account-page ::-ms-input-placeholder input {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: classico-urw, sans-serif;
-    color: #391006; }
-  #account-page ::placeholder input {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-family: classico-urw, sans-serif;
-    color: #391006; }
-
 /* SOCIAL MEDIA ICONS */
 .social-links {
   display: -webkit-box;
@@ -426,7 +387,7 @@ body {
     -ms-transform: translateY(-5px);
     transform: translateY(-5px); }
 
-/* CONTACT FORM */
+/* CONTACT PAGE */
 #text-form .container {
   max-width: 600px;
   border: 2px solid #391006;
@@ -480,7 +441,6 @@ body {
   margin: 20px 0 50px; }
 
 #text-form p {
-  /* margin-top: 50px; */
   margin-bottom: 0;
   font-size: 1.2em; }
 
@@ -492,6 +452,51 @@ body {
   width: 100px; }
 
 /* ACCOUNT PAGE */
+#account-page ::-webkit-input-placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006;
+  opacity: .7; }
+#account-page :-ms-input-placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006;
+  opacity: .7; }
+#account-page ::-ms-input-placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006;
+  opacity: .7; }
+#account-page ::placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006;
+  opacity: .7; }
+  #account-page ::-webkit-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page :-ms-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page ::-ms-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page ::placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+
 #account-page .row {
   padding: 0 10% 10%;
   padding-right: 10%;
@@ -554,6 +559,9 @@ body {
         display: -ms-flexbox;
         display: flex;
         max-width: 250px; }
+      #account-page .row .one-half.column fieldset button.sign-in, #account-page .row .one-half.column fieldset button.register, #account-page .row .one-half.column fieldset a {
+        color: white;
+        text-decoration: none; }
 
 /* CART PAGE */
 #shopping-cart {

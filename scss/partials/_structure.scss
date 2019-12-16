@@ -145,13 +145,21 @@
     }
 #line-up {
     .row {
-
 .two-third.column {
        margin: 0 auto;
-       text-align: start;
-       
+       text-align: start;      
+}} }
+.row.three {
+    .one-third.column {
+
+h4 {
+    color:#938564;
+    a {
+    text-decoration: none; 
 }
-    } }
+
+    }
+}}
  
 
 /* CONTACT SECTION */
@@ -211,21 +219,8 @@
         overflow: hidden;
         color: rgba(104, 103, 103, 0);
         list-style: none;
- } }} }    
-
- #account-page ::placeholder{
-   
-        font-size: .5em;
-        line-height: 1.5em;
-        font-family: $body-fontfamily;
-        color: $color-text-body;
-        input {
-            font-size: 1em;
-            line-height: 1.5em;
-            font-family: $body-fontfamily;
-            color: $color-text-body;
-    }}
-
+ } }} }  
+ 
 /* SOCIAL MEDIA ICONS */
 .social-links {
     display: flex;
@@ -253,7 +248,7 @@ li a {
   }
 }
 
-/* CONTACT FORM */
+/* CONTACT PAGE */
  
 #text-form  {
     .container {
@@ -263,11 +258,9 @@ li a {
         padding: 2em;
         margin-bottom: 100px;
     }
-
    hr {
     margin: 0 auto;
     display: flex;
-
    }
 
    input, textarea {
@@ -300,7 +293,6 @@ li a {
         margin: 20px 0 50px;
     }
     p {
-        /* margin-top: 50px; */
         margin-bottom: 0;
         font-size: 1.2em;
     }  
@@ -308,45 +300,57 @@ li a {
         margin: 0 auto;
         display: flex;
         width: 100px;
-    }
-}
+    }}
 
 
 /* ACCOUNT PAGE */
 
+
+#account-page ::placeholder{
+    font-size: .5em;
+    line-height: 1.5em;
+    font-family: $body-fontfamily;
+    color: $color-text-body;
+    opacity: .7;
+    input {
+        font-size: 1em;
+        line-height: 1.5em;
+        font-family: $body-fontfamily;
+        color: $color-text-body;
+    }}
+
 #account-page .row {
-padding: 0 10% 10%;
-padding-right: 10%;
-justify-content: space-between;
-align-items: center;
+   padding: 0 10% 10%;
+   padding-right: 10%;
+   justify-content: space-between;
+   align-items: center;
 
 .one-half.column {
    padding: 0 20px;
    button.sign-in.regster a {
-    text-decoration: none;
-
+   text-decoration: none;
   }
-   h3 {
-      text-align: center;
-       font-style: italic;
+h3 {
+    text-align: center;
+    font-style: italic;
    }
-    fieldset {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      max-width: 300px;
-      border-radius: 2%;
-        p {
-           display: flex;
-           text-align: center;
-           margin: 0 auto;
+fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    border-radius: 2%;
+ p {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
         }
        
-        legend {
-        font-family: $heading-fontfamily;
-        font-size: 1.5em;  
-        text-transform: uppercase;
-        padding-bottom: 20px;
+legend {
+    font-family: $heading-fontfamily;
+    font-size: 1.5em;  
+    text-transform: uppercase;
+    padding-bottom: 20px;
         }
         input {
             
@@ -360,12 +364,15 @@ align-items: center;
         }
         .clickbox p input {
             display: flex;
-            max-width: 250px;
-          
-            
+            max-width: 250px;    
         }
-     
-    }}}
+        button.sign-in, button.register, a {
+            color: white;
+            text-decoration: none;   
+        }
+    }}} 
+   
+
 
     /* CART PAGE */
     #shopping-cart {
