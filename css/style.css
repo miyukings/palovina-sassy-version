@@ -298,9 +298,9 @@ body {
   margin: 0 auto;
   text-align: start; }
 
-.row.three .one-third.column h4 {
+.row.three .one-third.column .liquid-soap {
   color: #938564; }
-  .row.three .one-third.column h4 a {
+  .row.three .one-third.column .liquid-soap a {
     text-decoration: none; }
 
 /* CONTACT SECTION */
