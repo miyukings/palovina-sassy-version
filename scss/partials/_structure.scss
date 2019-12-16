@@ -213,20 +213,18 @@
         list-style: none;
  } }} }    
 
- #account-page {
-     .container {
+ #account-page ::placeholder{
+   
+        font-size: .5em;
+        line-height: 1.5em;
+        font-family: $body-fontfamily;
+        color: $color-text-body;
         input {
             font-size: 1em;
             line-height: 1.5em;
             font-family: $body-fontfamily;
             color: $color-text-body;
-           
-    placeholder {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    font-family: $body-fontfamily;
-    color: $color-text-body;
-    }}}}
+    }}
 
 /* SOCIAL MEDIA ICONS */
 .social-links {

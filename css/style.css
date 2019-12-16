@@ -352,13 +352,46 @@ body {
       color: rgba(104, 103, 103, 0);
       list-style: none; }
 
-#account-page .container input {
-  font-size: 1em;
+#account-page ::-webkit-input-placeholder {
+  font-size: .5em;
   line-height: 1.5em;
   font-family: classico-urw, sans-serif;
   color: #391006; }
-  #account-page .container input placeholder {
-    font-size: 1.5em;
+
+#account-page :-ms-input-placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006; }
+
+#account-page ::-ms-input-placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006; }
+
+#account-page ::placeholder {
+  font-size: .5em;
+  line-height: 1.5em;
+  font-family: classico-urw, sans-serif;
+  color: #391006; }
+  #account-page ::-webkit-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page :-ms-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page ::-ms-input-placeholder input {
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: classico-urw, sans-serif;
+    color: #391006; }
+  #account-page ::placeholder input {
+    font-size: 1em;
     line-height: 1.5em;
     font-family: classico-urw, sans-serif;
     color: #391006; }
