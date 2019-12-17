@@ -296,12 +296,17 @@ body {
 
 #line-up .row .two-third.column {
   margin: 0 auto;
-  text-align: start; }
+  text-decoration: none; }
 
-.row.three .one-third.column .liquid-soap {
-  color: #938564; }
-  .row.three .one-third.column .liquid-soap a {
-    text-decoration: none; }
+.row.three .one-third.column .liquid a {
+  color: #938564;
+  text-decoration: none; }
+
+.row.three .one-third.column .liquid a:hover {
+  color: #391006; }
+
+.row.four a {
+  text-decoration: none; }
 
 /* CONTACT SECTION */
 #contact .one-half.column address {

@@ -64,7 +64,6 @@
     background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0)), url("../img/BG-long-white.png");
     background-repeat: no-repeat;
     background-size: cover; 
-
 } 
 
 
@@ -89,7 +88,6 @@
     padding: .8em 1em 20em 1em;
     text-align: right;
     background-image: url('../img/deadsea.jpg');
-
     p {
         text-align: right;
         font-style: italic;
@@ -104,7 +102,6 @@
     padding-top: 0; 
     font-style: italic;
 }
-
 }
         
 
@@ -147,21 +144,23 @@
     .row {
 .two-third.column {
        margin: 0 auto;
-       text-align: start;      
+       text-decoration: none;     
 }} }
 .row.three {
     .one-third.column {
 
-.liquid-soap {
+.liquid a{
     color:#938564;
- 
-    a {
     text-decoration: none; 
-}
-
+    }
+    .liquid a:hover {
+        color: $color-text-body;
     }
 }}
  
+.row.four a{
+    text-decoration: none;
+}
 
 /* CONTACT SECTION */
 #contact .one-half.column {
