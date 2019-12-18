@@ -598,3 +598,7 @@ body {
       #our-products .row .one-half.column.right li p {
         color: #391006;
         font-size: 1.2em; }
+
+/* SHOPPING CART */
+#shopping-cart .one-half.column h3 {
+  font-style: italic; }
