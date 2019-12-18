@@ -384,3 +384,34 @@ legend {
 .contact-two h3 {
     color: #391006;
 }
+
+/* SOAP PAGE */
+#our-products {
+    p {
+       margin: 0 auto;
+    }
+    .row  {
+margin: 50px auto;
+
+h3 {
+  margin-top: 8px;
+}
+
+.one-half.column.right {
+    align-self: flex-start;
+    margin: 0 50px;
+    padding-top: 0;
+   
+    li {
+        margin: 0 auto;
+        text-align: left;
+        
+    p {
+        color: $color-text-body;
+       
+        font-size: 1.2em;
+    }}
+}
+
+    }
+}

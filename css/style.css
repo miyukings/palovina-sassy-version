@@ -578,3 +578,23 @@ body {
 
 .contact-two h3 {
   color: #391006; }
+
+/* SOAP PAGE */
+#our-products p {
+  margin: 0 auto; }
+
+#our-products .row {
+  margin: 50px auto; }
+  #our-products .row h3 {
+    margin-top: 8px; }
+  #our-products .row .one-half.column.right {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin: 0 50px;
+    padding-top: 0; }
+    #our-products .row .one-half.column.right li {
+      margin: 0 auto;
+      text-align: left; }
+      #our-products .row .one-half.column.right li p {
+        color: #391006;
+        font-size: 1.2em; }
